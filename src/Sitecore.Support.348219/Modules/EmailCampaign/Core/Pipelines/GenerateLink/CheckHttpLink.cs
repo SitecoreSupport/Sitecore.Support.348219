@@ -1,10 +1,8 @@
-﻿using Sitecore.Diagnostics;
-using Sitecore.Modules.EmailCampaign.Core.HostnameMapping;
-using System;
-using System.Collections.Generic;
-
-namespace Sitecore.Modules.EmailCampaign.Core.Pipelines.GenerateLink
+﻿namespace Sitecore.Support.Modules.EmailCampaign.Core.Pipelines.GenerateLink
 {
+    using Sitecore.Diagnostics;
+    using Sitecore.Modules.EmailCampaign.Core.Pipelines.GenerateLink;
+    using System.Collections.Generic;
     public class CheckHttpLink : GenerateLinkProcessor
     {
         public override void Process(GenerateLinkPipelineArgs args)
